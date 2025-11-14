@@ -1,15 +1,19 @@
 {
-  "name": "sevalla-proxy",
+  "name": "sevalla-vmess-node",
   "version": "1.0.0",
+  "description": "Sevalla 免费 VMess + WS + TLS 代理节点",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.0",
-    "http-proxy-middleware": "^2.0.6"
+    "http-proxy-middleware": "^2.0.6",
+    "vmess-websocket": "^1.0.0"
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "author": "",
+  "license": "MIT"
 }
