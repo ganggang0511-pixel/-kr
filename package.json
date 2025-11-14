@@ -1,18 +1,15 @@
 {
-  "name": "sevalla-proxy-node",
+  "name": "sevalla-proxy",
   "version": "1.0.0",
-  "description": "Sevalla 免费 HTTP + WebSocket 代理节点",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.0",
-    "http-proxy-middleware": "^3.0.0"
+    "http-proxy-middleware": "^2.0.6"
   },
   "engines": {
     "node": ">=18"
-  },
-  "author": "",
-  "license": "MIT"
+  }
 }
