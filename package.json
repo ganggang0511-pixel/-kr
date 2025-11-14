@@ -1,16 +1,11 @@
 {
-  "name": "my-sevalla-node",
+  "name": "sevalla-node",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-    // 如果你有前端打包需求，再加下面这行
-    // "build": "npm run build --prefix client"   // 示例
   },
   "dependencies": {
     "express": "^4.18.0"
-  },
-  "engines": {
-    "node": ">=18"
   }
 }
